@@ -1,0 +1,25 @@
+{
+  "name": "clie-telemetry-bin",
+  "version": "0.0.0",
+  "description": "Executable wrapper for clie incorporating telemetry events and logs.",
+  "main": "index.js",
+  "dependencies": {
+    "clie": "0.1.5",
+    "telemetry-events": "0.5.0",
+    "telemetry-events-log": "0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/clie-telemetry-bin.git"
+  },
+  "keywords": [
+    "cli",
+    "evented",
+    "command-line",
+    "executable"
+  ],
+  "contributors": [
+    "Tristan Slominski <tristan.slominski@gmail.com>"
+  ],
+  "license": "MIT"
+}
