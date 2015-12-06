@@ -1,6 +1,6 @@
 {
   "name": "clie-telemetry-bin",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Executable wrapper for clie incorporating telemetry events and logs.",
   "main": "index.js",
   "dependencies": {
