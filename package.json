@@ -4,7 +4,7 @@
   "description": "Executable wrapper for clie incorporating telemetry events and logs.",
   "main": "index.js",
   "dependencies": {
-    "clie": "0.1.5",
+    "clie": "0.2.0",
     "telemetry-events": "1.0.1",
     "telemetry-events-log": "1.0.0"
   },
