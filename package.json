@@ -5,8 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "clie": "0.2.0",
-    "telemetry-events": "1.0.1",
-    "telemetry-events-log": "1.0.0"
+    "telemetry-events": "1.1.0",
+    "telemetry-events-log": "1.0.1"
   },
   "repository": {
     "type": "git",
