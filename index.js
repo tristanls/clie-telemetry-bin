@@ -61,7 +61,7 @@ var bin = module.exports = function bin(pkg, commandsDirectory)
         {
             exit: 0
         });
-        process.exit(0);
+        setImmediate(() => process.exit(0));
     });
 
     app.on("exit", function(exitCode)
@@ -70,6 +70,6 @@ var bin = module.exports = function bin(pkg, commandsDirectory)
         {
             exit: exitCode
         });
-        process.exit(exitCode);
+        setImmediate(() => process.exit(exitCode));
     });
 };
